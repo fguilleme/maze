@@ -1,0 +1,20 @@
+name: maze
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+synopsis: Maze
+description:
+data-files: data/MyMaze.lay
+            data/bigCorners.lay
+            data/bigMaze.lay
+data-dir: data
+
+executable MazeSolver
+    build-depends: array -any, base -any, containers -any, gloss -any,
+                   mtl -any
+    main-is: MazeDisplay.hs
+    buildable: True
+    hs-source-dirs: src
+

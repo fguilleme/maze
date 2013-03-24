@@ -1,0 +1,13 @@
+***********************************************************
+* SIMPLE MAZE SOLVER                                      * 
+*                                                         *
+* F. Guillemé 2012                                        *
+***********************************************************
+
+After completing the EduX berkely online course about AI I thought
+it might be a good idea to implement some of the basic ideas in the first homework
+using haskell.
+
+I am pretty sure that this piece of code will cause hesart attacks from everyday haskellers
+but it was for me a good oportunity to visit some of the haskell concepts. That said I absolutely
+love haskell!
